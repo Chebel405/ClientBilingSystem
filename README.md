@@ -11,8 +11,7 @@ L'application suit les principes de l'architecture RESTful et utilise le framewo
 - API REST pour la gestion des factures et des clients
 - Utilisation de **Spring Boot** pour le backend
 - Persistance des données avec **MySQL**
-- Sécurisation des endpoints avec JWT (si applicable)
-- Documentation de l'API avec **Swagger** (si applicable)
+
 
 ## Technologies utilisées
 - **Java 17**
@@ -28,7 +27,7 @@ L'application suit les principes de l'architecture RESTful et utilise le framewo
 - **Java 17** ou supérieur
 - **Maven 3.x**
 - **MySQL** installé et configuré
-- **Docker** (optionnel pour déploiement conteneurisé)
+
 
 ## Installation et Configuration
 
