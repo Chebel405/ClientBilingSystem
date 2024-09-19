@@ -24,10 +24,13 @@ public class Utilisateur {
     @SequenceGenerator(name = "utilisateur_seq", sequenceName = "utilisateur_seq", allocationSize = 1)
     @Column(name = "id", nullable = false)
     private Long id;
+
     @JsonProperty("nom")
     private String nom;
+
     @JsonProperty("prenom")
     private String prenom;
+
     @JsonProperty("fonction")
     private String fonction;
     @JsonProperty("role")
